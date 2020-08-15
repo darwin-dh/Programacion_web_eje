@@ -1,0 +1,53 @@
+.main .slider{
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.main .slider ul{
+  display: flex;
+  padding: 0;
+  animation:cambio 10s infinite alternate linear;
+  width: 400%;
+}
+.main .slider ul li{
+  list-style: none;
+  width: 100%;
+}
+.main .slider ul li img{
+width: 100%;
+}
+@keyframes cambio {
+  0%{
+    margin-left: 0;
+  }
+  20%{
+    margin-left: 0;
+  }
+  25%{
+    margin-left: -100%;
+  }
+  45%{
+    margin-left: -100%;
+  }
+  50%{
+    margin-left: -200%;
+  }
+  70%{
+    margin-left: -200%;
+  }
+  75%{
+    margin-left: -300%;
+  }
+  100${
+    margin-left: -300%;
+  }
+
+
+}
+.gif iframe{
+  width: 90%;
+  margin: auto;
+  width: 1000px;
+  background: #000;
+}
