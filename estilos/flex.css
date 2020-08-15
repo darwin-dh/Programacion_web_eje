@@ -1,0 +1,37 @@
+body{
+  background: #caccd1;
+}
+h1{
+  text-align: center;
+}
+/* llamar calass |. y el nombre de class|*/
+.padre{
+  border:1px solid;
+  width: 100%;
+  max-width:1000px;
+  background: #371777;
+  /*convierte a  los hijos en flexibles*/
+  display: flex;
+  /*direcion de los hijos*/
+  flex-direction:row;
+  /*hace que los hijos sigan una lina*/
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /*flex-flow: column-reverse-wrap;*/
+}
+.padre img{
+  border-radius: 50%;
+}
+.hijo{
+  width: 100px;
+  height: 100px;
+  color:#000;
+  background: #fefefe;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+/* flex-grow: 1;
+  flex-shrink: 2;*/
+  flex: 1 2 auto;
+}
