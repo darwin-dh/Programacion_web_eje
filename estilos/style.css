@@ -1,0 +1,154 @@
+/* *= dom documento html */
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+body{
+  background: #fff;
+  font-family: Open sans;
+  font-size: 16px;
+}
+.contenedor{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow:hidden;
+}
+/**==========HEADER==========**/
+header{
+  background:url(../img/imagen3.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+  max-height: 617px;
+}
+header .menu{
+  margin: 40px 0;
+  text-align: right;
+}
+header .menu a{
+  margin: 0 40px;
+  color: #fff;
+  padding-bottom: 9px;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+header .menu a:hover{
+  border-bottom:2px solid;
+}
+.color{
+  background:rgba(0, 0, 50, 0.6);
+  max-height:617px;
+}
+header .contenedor-texto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 190px 0;
+}
+header .contenedor-texto .texto{
+  border: 2px solid rgba(255,255,255, 0.5);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 20px 60px;
+  text-align: center;
+}
+header .contenedor-texto .texto h1,h2{
+  color: #fff;
+  margin: 0;
+  font-weight: 400;
+}
+header .contenedor-texto .texto .nombre{
+  margin-bottom: 10px;
+  font-size:50px;
+
+}
+header .contenedor-texto .texto .profesion{
+font-size: 30px;
+font-weight: 100;
+}
+/**MAIN**/
+.main .contenedor{
+  overflow: visible;
+}
+.main .acerca-de{
+  text-align: center;
+}
+.main .acerca-de .foto{
+  margin-top: -50px;
+}
+.main .acerca-de .foto img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  opacity: 1;
+}
+/*====footer=====*/
+footer .iconos{
+  background: #1e2b38;
+  padding: 60px 0;
+}
+footer .iconos .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer .iconos .contenedor a{
+color: #fff;
+width: 100px;
+font-size: 30px;
+text-align: center;
+padding: 15px 0;
+display: block;
+margin: 0 20px;
+border-radius: 3px;
+flex:auto;
+}
+footer .iconos .contenedor .twitter:hover{
+  background: #1da1f2;
+}
+footer .iconos .contenedor .whatsapp:hover{
+  background:#128c7e;
+}
+footer .iconos .contenedor .telegram:hover{
+  background:#0088cc;
+}
+footer .iconos .contenedor .inst:hover{
+  background: #fd1d1d;
+}
+footer .iconos .contenedor .face:hover{
+  background: #3b5998;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+/***/
