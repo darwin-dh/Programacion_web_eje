@@ -1,0 +1,25 @@
+body{
+  background: #3399cc;
+}
+/**Media query
+poner al terminar los estilos del sitio
+**/
+@media screen and (max-width:800px){
+  /*todos los estilos aqui*/
+  body{
+    background: #ff6600;
+  }
+  /*fin de los estilos*/
+}
+@media screen and (max-width:600px){
+  body{
+    background: #ff9900;
+  }
+}
+@media screen and (max-width:300px){
+  /*todos estilos aqui*/
+  body{
+    background: #ffcc00;
+  }
+  /*fin*/
+}
