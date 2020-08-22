@@ -1,0 +1,19 @@
+.padre{
+  background: #00bce4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.hijo{
+  background: #d20962;
+  width: 150px;
+  max-width: 1000px;
+  height: 40%;
+  margin: 10px;
+  font-size: 50px;
+  text-align: center;
+  flex: auto;
+}
+.grow{
+  flex-grow:100;
+}
