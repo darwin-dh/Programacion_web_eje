@@ -1,0 +1,55 @@
+body{
+  background: #fff;
+}
+.principal{
+  background: #caf0f8;
+  margin: 10px;
+}
+.caja{
+  background: #00b4d8;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+.relativo{
+  position: relative;
+  left:160px;
+  top:0px;
+  bottom:0;
+  right: 0;
+}
+.absoluto{
+  position: absolute;
+  left:330px;
+  top:160px;
+}
+.fijo{
+  position: fixed;
+
+}
+.flotanter{
+  float: right;
+}
+.flotantez{
+  float: left;
+}
+.verder{
+  background: green;
+}
+/**Tipos de posicionamientos**/
+/**
+*normal: static:por defecto con que los navegadores acomodan los elemetos
+*relativo :relative Nos permite posicionar un elemento y despues moverlo de su lugar original
+*absoluto : absolute nos permite mover, ignora el resto de elementos
+*fijo : fixed nos permite mover un elemento en donde su posicion respecto a la pantalla
+-float : nos permite desplazar un elemento a la izquiera o derecha
+*/
+/*Mover
+top arriba
+bottom abajo
+left izquierda
+right derecha
+/**nota solo funcionan con la propiedad position**/
+
+
+*/
