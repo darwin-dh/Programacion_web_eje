@@ -1,0 +1,62 @@
+/*Tipos de medidas*/
+/*Unidades relativas*/
+/*
+*px = pixeles
+*em = relativa depende de un contenedor padre
+*rem = depende del tamaño body
+*%  = porcentaje
+*/
+/**Unidades absolutas**/
+/*
+*in = pulgadas
+*cm = centimetros
+*mm = milimetros
+*/
+body{
+  background: #fff;
+  font-size: 20px
+}
+.px{
+  font-size: 20px;
+}
+.caja1{
+  font-size:16px;
+}
+.em{
+  font-size:1em;/*1em * 2 = 32px*/
+}
+.rem{
+  font-size: 6rem ;
+}
+/*medidas absolutas*/
+.in{
+  font-size: 1in;
+}
+.cm{
+  font-size: 0.5cm;
+}
+.mm{
+  font-size: 20mm;
+}
+.caja2{
+  background: #d6d5d4;
+  font-size: 40px;
+}
+.caja2 p{
+  padding: 4em 4rem;
+  font-size:0.3em;
+  color:rgb(100%,50%,80%);
+}
+/****unidades***/
+/*
+hex #ffffff
+colors red,black,blue
+rgb 0,255,100
+rgb 0%,0%,0%
+rgba 0%,255,125,0.3
+*/
+
+
+
+
+/*****/
