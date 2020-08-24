@@ -1,0 +1,57 @@
+body{
+  background: #fff;
+}
+/*boton*/
+.btn{
+  color:#fff;
+  background: #32021f;
+  display: inline-block;
+  font-size: 16px;
+  padding: 16px 20px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.btn:hover{
+  opacity: 0.8;
+}
+div{
+  margin: 20px 0;
+}
+/**colores fondos**/
+.azul{
+  background: #246eb9;
+}
+.verder{
+  background:#4fb560;
+}
+.naranaja{
+  background: #f9a03f;
+}
+/*tamaños*/
+.pequeño{
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.mediano{
+  font-size: 16px;
+  padding: 15px 20px;
+}
+.grande{
+  font-size: 18px;
+  padding: 20px 25px;
+}
+.extra-grande{
+  font-size: 20px;
+  padding: 25px 30px;
+}
+/*bordes*/
+.borde{
+  border-radius: 100px;
+}
+.borde-solid{
+  border:5px solid #000;
+}
+/*tamaños letra*/
+.n20{
+  font-size: 20px;
+}
