@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+}
+.padre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.caja1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    background: red;
+}
+.caja2 {
+    width: 30%;
+    background: green;
+}
+
+@media screen and (max-width:600px) {
+    .caja1 {
+        width: 100%;
+        background: yellow;
+        font-size: 12px;
+    }
+    .caja2 {
+        width: 100%;
+    }
+
+}
