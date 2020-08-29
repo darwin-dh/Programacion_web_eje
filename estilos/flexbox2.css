@@ -9,6 +9,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
+/**hijos**/
 .caja1 {
     display: flex;
     flex-wrap: wrap;
