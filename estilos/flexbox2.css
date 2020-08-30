@@ -15,6 +15,15 @@ body {
     flex-wrap: wrap;
     width: 70%;
     background: red;
+    font-size: 40px;
+    color:#fff;
+
+    /*relleno interno margen interno*/
+    /**       top right  bot left  */
+    padding: 20px 25px 25px 60px;
+}
+.caja1 h2,p{
+  line-height:2;
 }
 .caja2 {
     width: 30%;
