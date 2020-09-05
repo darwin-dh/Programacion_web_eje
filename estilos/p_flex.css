@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header {
+    width: 100%;
+    background: #264653;
+    color: #fff;
+    padding: 20px;
+}
+section {
+    width: 70%;
+    background: #2a9d8f;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+section .imagen {
+    width: 33%;
+    padding: 5px;
+}
+
+section .texto1 {
+    width: 33%;
+    padding: 5px;
+}
+
+section .texto2 {
+    width: 34%;
+    padding: 5px;
+}
+
+/*
+section .texto1{
+  position: relative;
+  background: red;
+  left: 650px;
+  top:-430px;
+  width: 200px;
+  height: 425px;
+}*/
+aside {
+    width: 30%;
+    background: #e9c46a;
+    padding: 20px;
+}
+footer {
+    width: 100%;
+    background: #f4a261;
+    padding: 20px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+footer .columna1{
+  width: 50%;
+}
+footer .columna2{
+  width: 15%;
+}
+footer .columna3{
+  width: 15%;
+}
+footer .columna4{
+  width: 20%;
+}
+@media screen and (max-width:600px) {
+    /*aqui los estilos*/
+    section {
+        width: 100%;
+        padding: 0;
+        color: #fff;
+        font-size: 16px;
+    }
+    section .imagen{
+      width: 50%;
+    }
+    section .texto1{
+      width: 50%;
+    }
+    section .texto2{
+      width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    footer .columna2{
+      width: 50%;
+    }
+    footer .columna3{
+      width: 50%;
+    }
+    footer .columna4{
+      width: 50%;
+    }
+
+}
