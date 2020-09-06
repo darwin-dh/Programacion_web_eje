@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+background: url(../img/imagen1.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+background-position:  center;
+background-attachment: fixed;
+max-height: auto;
+max-width: 1900px;
+width: 100%;
+}
+.opacidad{
+  background: rgba(100,100,22,.5);
+  height: 400px;
+}
+header{
+  background: url(../img/itq.png);
+  background-size: cover;
+  background-position: center;
+  max-height: 600px;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+header nav a{
+color: white;
+
+}
+.texto p{
+
+}
+.contendor-textos{
+  /*mal*/
+}
+.texto .contendor-textos{
+/*bien*/
+}
+header .texto .contendor-textos{
+  /*correcto*/
+}
+.main .imagen img{
+ max-width: 300px;
+  width: 50%;
+  height: auto;
+}
+@media screen and (max-width:800px){
+  p{
+    color:red;
+  }
+}
+@media screen and (max-width:600px){
+
+}
+@media screen and (max-width:300px){
+
+}
